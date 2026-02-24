@@ -35,7 +35,7 @@ const Menu = () => {
                     image={item.image}
                     description={item.description}
                     price={item.price}
-                    className="lg:w-[calc(32%_-_12px)] mb-10"
+                    className=""
                   />
                 ))}
               </div>

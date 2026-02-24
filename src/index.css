@@ -4,7 +4,7 @@
 
 @layer components {
   .container-content {
-    @apply w-[86.5%] max-w-[1320px] mx-auto;
+    @apply w-[90%] max-w-[1320px] mx-auto;
   }
 }
 
