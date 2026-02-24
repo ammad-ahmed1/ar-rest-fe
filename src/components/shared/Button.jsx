@@ -32,6 +32,13 @@ const ButtonUI = ({
         border: isActive ? "1px solid red" : "none",
         fontWeight: "700",
         fontSize: "12.5px",
+        "& .MuiButton-startIcon": {
+          marginRight: "0px", // reduce from default 8px
+          marginLeft: 0,
+        },
+        "& .MuiButton-startIcon svg": {
+          fontSize: "14px",
+        },
         ...extraSx,
       }}
     >

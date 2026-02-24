@@ -2,6 +2,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { explore_menu, explore_menu_mobile } from "../../data/homepage-data";
+import SectionHeader from "./SectionHeader";
 
 const ExploreMenu = () => {
   const settings = {
@@ -27,10 +28,7 @@ const ExploreMenu = () => {
       {/* Header */}
       <div className="flex justify-between items-center mb-8 mt-[25px]">
         <div className="flex flex-col ">
-          <h2 className="text-md md:text-2xl font-black leading-none text-white">
-            EXPLORE MENU
-          </h2>
-          <div className="w-[60px] h-[2px] bg-red-500 mt-1"></div>
+          <SectionHeader title="EXPLORE MENU" />
         </div>
         <div className="flex flex-col items-end">
           <h4 className="font-white md:font-semibold leading-none text-white tracking-widest">

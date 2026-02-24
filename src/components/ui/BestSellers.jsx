@@ -5,7 +5,7 @@ import KfcCardBadge from "./KfcCardBadge";
 
 const BestSellers = () => {
   return (
-    <div className="container-content py-10">
+    <div className="container-content mt-10">
       {/* Header */}
       <SectionHeader title="BEST SELLERS" />
 
