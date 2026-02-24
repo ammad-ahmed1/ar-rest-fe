@@ -10,13 +10,11 @@ import Layout from "../components/layout/Layout";
 const Homepage = () => {
   return (
     <div className="">
-      <Layout>
-        {/* <div className="h-[95px] md:h-[110px] lg:h-[90px] xl:h-[90px]"></div> */}
-        <Hero />
-        <ExploreMenu />
-        <BestSellers />
-        <TopDeals />
-      </Layout>
+      {/* <div className="h-[95px] md:h-[110px] lg:h-[90px] xl:h-[90px]"></div> */}
+      <Hero />
+      <ExploreMenu />
+      <BestSellers />
+      <TopDeals />
     </div>
   );
 };
