@@ -7,30 +7,37 @@ export const menuData = {
     {
       id: "ramzan-deals",
       name: "Ramzan Deals",
-      image: "https://www.kfcpakistan.com/images/58e39830-0cc4-11f1-978a-4f4b6c4e43a0-GroupThumbnails-2026-02-18122126.png",
+      image:
+        "https://www.kfcpakistan.com/images/58e39830-0cc4-11f1-978a-4f4b6c4e43a0-GroupThumbnails-2026-02-18122126.png",
       items: [
         {
           id: "ramzan-yaari-deal",
           name: "Ramzan Yaari Deal",
-          description: "The ramzan feast for 3! 3 Zinger Burgers + 3 Chicken Drumsticks + 1 Fries Bucket + 3 Regular Drinks",
+          description:
+            "The ramzan feast for 3! 3 Zinger Burgers + 3 Chicken Drumsticks + 1 Fries Bucket + 3 Regular Drinks",
           price: 1790,
-          image: "https://www.kfcpakistan.com/images/479e5da0-033f-11f1-a43c-ed6107a34b02-Deal1-2026-02-06093614.png",
+          image:
+            "https://www.kfcpakistan.com/images/479e5da0-033f-11f1-a43c-ed6107a34b02-Deal1-2026-02-06093614.png",
           category: "Deals",
         },
         {
           id: "ramzan-combo",
           name: "Ramzan Combo",
-          description: "Keep it classic this Ramzan with the Zingeratha Combo. Zingeratha + Fries + Drink.",
+          description:
+            "Keep it classic this Ramzan with the Zingeratha Combo. Zingeratha + Fries + Drink.",
           price: 550,
-          image: "https://www.kfcpakistan.com/images/48a1b2c0-033f-11f1-b8c8-9d1458b09f1f-ZingerathaCombo-2026-02-06093614.png",
+          image:
+            "https://www.kfcpakistan.com/images/48a1b2c0-033f-11f1-b8c8-9d1458b09f1f-ZingerathaCombo-2026-02-06093614.png",
           category: "Deals",
         },
         {
           id: "hot-shot-shakers",
           name: "Hot Shot Shakers",
-          description: "10 crispy Hotshots, paired with chipotle sauce & ranch dip - made to be shaken, coated and dunked your way.",
+          description:
+            "10 crispy Hotshots, paired with chipotle sauce & ranch dip - made to be shaken, coated and dunked your way.",
           price: 550,
-          image: "https://www.kfcpakistan.com/images/3df28210-0356-11f1-b8c8-9d1458b09f1f-HotShotShakers-2026-02-06122036.png",
+          image:
+            "https://www.kfcpakistan.com/images/3df28210-0356-11f1-b8c8-9d1458b09f1f-HotShotShakers-2026-02-06122036.png",
           category: "Promotion",
         },
       ],
@@ -39,30 +46,37 @@ export const menuData = {
     {
       id: "everyday-value",
       name: "Everyday Value",
-      image: "https://www.kfcpakistan.com/images/945d43e0-04e8-11f1-9ab5-3bcf9765e847-GTEverydayValue-2026-02-08122039.png",
+      image:
+        "https://www.kfcpakistan.com/images/945d43e0-04e8-11f1-9ab5-3bcf9765e847-GTEverydayValue-2026-02-08122039.png",
       items: [
         {
           id: "krunch-burger",
           name: "Krunch Burger",
-          description: "Krunch fillet, spicy mayo, lettuce, sandwiched between a sesame seed bun",
+          description:
+            "Krunch fillet, spicy mayo, lettuce, sandwiched between a sesame seed bun",
           price: 310,
-          image: "https://www.kfcpakistan.com/images/3df28210-0356-11f1-b8c8-9d1458b09f1f-KrunchBurger-2026-02-06122036.png",
+          image:
+            "https://www.kfcpakistan.com/images/3df28210-0356-11f1-b8c8-9d1458b09f1f-KrunchBurger-2026-02-06122036.png",
           category: "Burgers",
         },
         {
           id: "zingeratha",
           name: "Zingeratha",
-          description: "Tender boneless strips, sliced onions, tangy imli chutney, mint mayo, wrapped in a soft paratha",
+          description:
+            "Tender boneless strips, sliced onions, tangy imli chutney, mint mayo, wrapped in a soft paratha",
           price: 390,
-          image: "https://www.kfcpakistan.com/images/48a4e130-033f-11f1-9cf8-db47e00d6f70-Zingeratha-2026-02-06093614.png",
+          image:
+            "https://www.kfcpakistan.com/images/48a4e130-033f-11f1-9cf8-db47e00d6f70-Zingeratha-2026-02-06093614.png",
           category: "Wraps",
         },
         {
           id: "rice-and-spice",
           name: "Rice & Spice",
-          description: "Spiced and buttery rice with 6 pcs of Hot Shots topped with our signature Vietnamese sauce",
+          description:
+            "Spiced and buttery rice with 6 pcs of Hot Shots topped with our signature Vietnamese sauce",
           price: 390,
-          image: "https://www.kfcpakistan.com/images/5a2b4c60-0332-11f1-be61-8b04dd48299d-RiceAndSpice-2026-02-06080615.png",
+          image:
+            "https://www.kfcpakistan.com/images/5a2b4c60-0332-11f1-be61-8b04dd48299d-RiceAndSpice-2026-02-06080615.png",
           category: "Rice Bowls",
         },
         {
@@ -70,23 +84,28 @@ export const menuData = {
           name: "Boneless Strips",
           description: "3 Chicken strips for a hassle free boneless experience",
           price: 440,
-          image: "https://www.kfcpakistan.com/images/b5d1f500-0332-11f1-be61-8b04dd48299d-BonelessStrips-2026-02-06080615.png",
+          image:
+            "https://www.kfcpakistan.com/images/b5d1f500-0332-11f1-be61-8b04dd48299d-BonelessStrips-2026-02-06080615.png",
           category: "Chicken",
         },
         {
           id: "twister",
           name: "Twister",
-          description: "Tender boneless strips, black pepper mayo, diced tomatoes and lettuce- wrapped in a tortilla",
+          description:
+            "Tender boneless strips, black pepper mayo, diced tomatoes and lettuce- wrapped in a tortilla",
           price: 440,
-          image: "https://www.kfcpakistan.com/images/c3a9c4a0-032f-11f1-ac61-7b5bb31ece9d-Twister-2026-02-06074510.png",
+          image:
+            "https://www.kfcpakistan.com/images/c3a9c4a0-032f-11f1-ac61-7b5bb31ece9d-Twister-2026-02-06074510.png",
           category: "Wraps",
         },
         {
           id: "chicken-and-chips",
           name: "Chicken & Chips",
-          description: "2 pieces of Hot and Crispy Fried Chicken + Fries + Dinner roll + signature Vietnamese Sauce",
+          description:
+            "2 pieces of Hot and Crispy Fried Chicken + Fries + Dinner roll + signature Vietnamese Sauce",
           price: 620,
-          image: "https://www.kfcpakistan.com/images/b5d1f500-0332-11f1-be61-8b04dd48299d-ChickenAndChips-2026-02-06080615.png",
+          image:
+            "https://www.kfcpakistan.com/images/b5d1f500-0332-11f1-be61-8b04dd48299d-ChickenAndChips-2026-02-06080615.png",
           category: "Meals",
         },
         {
@@ -94,7 +113,8 @@ export const menuData = {
           name: "3 Pcs Chicken",
           description: "3 pieces of Hot and Crispy Fried Chicken",
           price: 690,
-          image: "https://www.kfcpakistan.com/images/c3a98760-032f-11f1-abc7-cdf759166736-3PcsChicken-2026-02-06074510.png",
+          image:
+            "https://www.kfcpakistan.com/images/c3a98760-032f-11f1-abc7-cdf759166736-3PcsChicken-2026-02-06074510.png",
           category: "Chicken",
         },
         {
@@ -102,7 +122,8 @@ export const menuData = {
           name: "Krunch Burger + Drink",
           description: "1 Krunch burger + 1 Regular drink",
           price: 410,
-          image: "https://www.kfcpakistan.com/images/3df2a520-0356-11f1-96bb-af6cbd06c5f6-KrunchBurgerDrink-2026-02-06122036.png",
+          image:
+            "https://www.kfcpakistan.com/images/3df2a520-0356-11f1-96bb-af6cbd06c5f6-KrunchBurgerDrink-2026-02-06122036.png",
           category: "Combos",
         },
         {
@@ -110,15 +131,18 @@ export const menuData = {
           name: "Krunch Combo",
           description: "1 Krunch burger + 1 Regular fries + 1 Regular drink",
           price: 590,
-          image: "https://www.kfcpakistan.com/images/b5d21c10-0332-11f1-bced-37eb4037a5af-KrunchCombo-2026-02-06080615.png",
+          image:
+            "https://www.kfcpakistan.com/images/b5d21c10-0332-11f1-bced-37eb4037a5af-KrunchCombo-2026-02-06080615.png",
           category: "Combos",
         },
         {
           id: "krunch-chicken-combo",
           name: "Krunch Chicken Combo",
-          description: "1 Krunch burger + 1 pc of Hot and Crispy Fried Chicken + 1 Regular drink",
+          description:
+            "1 Krunch burger + 1 pc of Hot and Crispy Fried Chicken + 1 Regular drink",
           price: 620,
-          image: "https://www.kfcpakistan.com/images/3df2c430-0356-11f1-9ab5-3bcf9765e847-KrunchChickenCombo-2026-02-06122036.png",
+          image:
+            "https://www.kfcpakistan.com/images/3df2c430-0356-11f1-9ab5-3bcf9765e847-KrunchChickenCombo-2026-02-06122036.png",
           category: "Combos",
         },
         {
@@ -126,7 +150,8 @@ export const menuData = {
           name: "Twister Combo",
           description: "Twister + 1 Regular fries + 1 Regular drink",
           price: 710,
-          image: "https://www.kfcpakistan.com/images/c3a9e2b0-032f-11f1-9cd7-bf0c899c108f-TwisterCombo-2026-02-06074510.png",
+          image:
+            "https://www.kfcpakistan.com/images/c3a9e2b0-032f-11f1-9cd7-bf0c899c108f-TwisterCombo-2026-02-06074510.png",
           category: "Combos",
         },
       ],
@@ -135,38 +160,47 @@ export const menuData = {
     {
       id: "ala-carte-and-combos",
       name: "Ala Carte & Combos",
-      image: "https://www.kfcpakistan.com/images/945d1cd0-04e8-11f1-9cf8-db47e00d6f70-GTAla-Carte-&-Combos-2026-02-08122039.png",
+      image:
+        "https://www.kfcpakistan.com/images/945d1cd0-04e8-11f1-9cf8-db47e00d6f70-GTAla-Carte-&-Combos-2026-02-08122039.png",
       items: [
         {
           id: "zinger-burger",
           name: "Zinger Burger",
-          description: "Our hero- crispy Zinger fillet, signature mayo and lettuce- sandwiched between a sesame seed bun",
+          description:
+            "Our hero- crispy Zinger fillet, signature mayo and lettuce- sandwiched between a sesame seed bun",
           price: 600,
-          image: "https://www.kfcpakistan.com/images/479d9a50-033f-11f1-80f2-d9425fcae453-ZingerBurger-2026-02-06093614.png",
+          image:
+            "https://www.kfcpakistan.com/images/479d9a50-033f-11f1-80f2-d9425fcae453-ZingerBurger-2026-02-06093614.png",
           category: "Burgers",
         },
         {
           id: "zinger-stacker",
           name: "Zinger Stacker",
-          description: "Double krunch fillet, jalapenos, spicy mayo, lettuce and cheese with our signature Vietnamese sauce- sandwiched between a corn meal bun",
+          description:
+            "Double krunch fillet, jalapenos, spicy mayo, lettuce and cheese with our signature Vietnamese sauce- sandwiched between a corn meal bun",
           price: 660,
-          image: "https://www.kfcpakistan.com/images/47a0e860-033f-11f1-a43c-ed6107a34b02-ZingerStacker-2026-02-06093614.png",
+          image:
+            "https://www.kfcpakistan.com/images/47a0e860-033f-11f1-a43c-ed6107a34b02-ZingerStacker-2026-02-06093614.png",
           category: "Burgers",
         },
         {
           id: "kentucky-burger",
           name: "Kentucky Burger",
-          description: "OG Zinger fillet layered with beef pepperoni, crispy fried onions, cheese and smokey BBQ sauce- sandwiched between an herb and black sesame bun",
+          description:
+            "OG Zinger fillet layered with beef pepperoni, crispy fried onions, cheese and smokey BBQ sauce- sandwiched between an herb and black sesame bun",
           price: 660,
-          image: "https://www.kfcpakistan.com/images/47a10b70-033f-11f1-b8c8-9d1458b09f1f-KentuckyBurger-2026-02-06093614.png",
+          image:
+            "https://www.kfcpakistan.com/images/47a10b70-033f-11f1-b8c8-9d1458b09f1f-KentuckyBurger-2026-02-06093614.png",
           category: "Burgers",
         },
         {
           id: "mighty-zinger",
           name: "Mighty Zinger",
-          description: "Our signature Zinger but Bigger! Double Zinger fillet with a combination of spicy and plain mayo, lettuce and cheese- sandwiched between a sesame seed bun",
+          description:
+            "Our signature Zinger but Bigger! Double Zinger fillet with a combination of spicy and plain mayo, lettuce and cheese- sandwiched between a sesame seed bun",
           price: 770,
-          image: "https://www.kfcpakistan.com/images/479d9a50-033f-11f1-80f2-d9425fcae453-MightyBurger-2026-02-06093614.png",
+          image:
+            "https://www.kfcpakistan.com/images/479d9a50-033f-11f1-80f2-d9425fcae453-MightyBurger-2026-02-06093614.png",
           category: "Burgers",
         },
         {
@@ -174,7 +208,8 @@ export const menuData = {
           name: "Zinger Combo",
           description: "Zinger burger + 1 Regular fries + 1 Regular drink",
           price: 910,
-          image: "https://www.kfcpakistan.com/images/47a12e80-033f-11f1-9cf8-db47e00d6f70-ZingerCombo-2026-02-06093614.png",
+          image:
+            "https://www.kfcpakistan.com/images/47a12e80-033f-11f1-9cf8-db47e00d6f70-ZingerCombo-2026-02-06093614.png",
           category: "Combos",
         },
         {
@@ -182,7 +217,8 @@ export const menuData = {
           name: "Zinger Stacker Combo",
           description: "1 Zinger Stacker + 1 Regular fries + 1 Regular drink",
           price: 950,
-          image: "https://www.kfcpakistan.com/images/47a15190-033f-11f1-978a-4f4b6c4e43a0-ZingerStackerCombo-2026-02-06093614.png",
+          image:
+            "https://www.kfcpakistan.com/images/47a15190-033f-11f1-978a-4f4b6c4e43a0-ZingerStackerCombo-2026-02-06093614.png",
           category: "Combos",
         },
         {
@@ -190,7 +226,8 @@ export const menuData = {
           name: "Kentucky Burger Combo",
           description: "Kentucky burger + 1 Regular fries + 1 Regular drink",
           price: 950,
-          image: "https://www.kfcpakistan.com/images/47a174a0-033f-11f1-80f2-d9425fcae453-KentuckyBurgerCombo-2026-02-06093614.png",
+          image:
+            "https://www.kfcpakistan.com/images/47a174a0-033f-11f1-80f2-d9425fcae453-KentuckyBurgerCombo-2026-02-06093614.png",
           category: "Combos",
         },
         {
@@ -198,7 +235,8 @@ export const menuData = {
           name: "Mighty Zinger Combo",
           description: "Mighty Zinger + 1 Regular fries + 1 Regular drink",
           price: 1050,
-          image: "https://www.kfcpakistan.com/images/47a197b0-033f-11f1-a43c-ed6107a34b02-MightyZingerCombo-2026-02-06093614.png",
+          image:
+            "https://www.kfcpakistan.com/images/47a197b0-033f-11f1-a43c-ed6107a34b02-MightyZingerCombo-2026-02-06093614.png",
           category: "Combos",
         },
       ],
@@ -207,46 +245,57 @@ export const menuData = {
     {
       id: "signature-boxes",
       name: "Signature Boxes",
-      image: "https://www.kfcpakistan.com/images/ececa300-0580-11f1-9cd7-bf0c899c108f-GTSignature-Boxes-2026-02-09063111.png",
+      image:
+        "https://www.kfcpakistan.com/images/ececa300-0580-11f1-9cd7-bf0c899c108f-GTSignature-Boxes-2026-02-09063111.png",
       items: [
         {
           id: "crispy-box",
           name: "Crispy Box",
-          description: "In mood for something crispy? Get 2 pcs Hot & Crispy Chicken + 1 Regular fries + 1 Regular drink + 1 Coleslaw",
+          description:
+            "In mood for something crispy? Get 2 pcs Hot & Crispy Chicken + 1 Regular fries + 1 Regular drink + 1 Coleslaw",
           price: 750,
-          image: "https://www.kfcpakistan.com/images/b848dfe0-058c-11f1-a3ea-b7e26899e5ab-CrispyBox-2026-02-09075537.png",
+          image:
+            "https://www.kfcpakistan.com/images/b848dfe0-058c-11f1-a3ea-b7e26899e5ab-CrispyBox-2026-02-09075537.png",
           category: "Box Meals",
         },
         {
           id: "strips-chips-n-dips",
           name: "Strips Chips N' Dips",
-          description: "4 Boneless Strips, Regular Fries, 2 Dips (Smoke Show & Ranch) and a Drink",
+          description:
+            "4 Boneless Strips, Regular Fries, 2 Dips (Smoke Show & Ranch) and a Drink",
           price: 750,
-          image: "https://www.kfcpakistan.com/images/b848dfe0-058c-11f1-a3ea-b7e26899e5ab-SCD-2026-02-09075537.png",
+          image:
+            "https://www.kfcpakistan.com/images/b848dfe0-058c-11f1-a3ea-b7e26899e5ab-SCD-2026-02-09075537.png",
           category: "Box Meals",
         },
         {
           id: "wow-box",
           name: "Wow Box",
-          description: "Feel good with 1 Signature Zinger + 1 pc Hot & Crispy Chicken + 1 Regular fries + 1 Regular drink + 1 Coleslaw",
+          description:
+            "Feel good with 1 Signature Zinger + 1 pc Hot & Crispy Chicken + 1 Regular fries + 1 Regular drink + 1 Coleslaw",
           price: 1050,
-          image: "https://www.kfcpakistan.com/images/c3a940b0-032f-11f1-ac61-7b5bb31ece9d-WowBox-2026-02-06074510.png",
+          image:
+            "https://www.kfcpakistan.com/images/c3a940b0-032f-11f1-ac61-7b5bb31ece9d-WowBox-2026-02-06074510.png",
           category: "Box Meals",
         },
         {
           id: "crispy-duo-box",
           name: "Crispy Duo Box",
-          description: "Turn up the fun with 5 pcs Hot & Crispy Chicken + 1 Large fries + 2 Regular drinks",
+          description:
+            "Turn up the fun with 5 pcs Hot & Crispy Chicken + 1 Large fries + 2 Regular drinks",
           price: 1350,
-          image: "https://www.kfcpakistan.com/images/b84902f0-058c-11f1-96bb-af6cbd06c5f6-CrispyDuoBox-2026-02-09075537.png",
+          image:
+            "https://www.kfcpakistan.com/images/b84902f0-058c-11f1-96bb-af6cbd06c5f6-CrispyDuoBox-2026-02-09075537.png",
           category: "Box Meals",
         },
         {
           id: "xtreme-duo-box",
           name: "Xtreme Duo Box",
-          description: "The irresistible combo of 2 Signature Zingers + 2 pcs Hot & Crispy Chicken + 1 Large fries + 2 Regular drinks",
+          description:
+            "The irresistible combo of 2 Signature Zingers + 2 pcs Hot & Crispy Chicken + 1 Large fries + 2 Regular drinks",
           price: 1560,
-          image: "https://www.kfcpakistan.com/images/c3a961c0-032f-11f1-abc7-cdf759166736-XtremeDuoBox-2026-02-06074510.png",
+          image:
+            "https://www.kfcpakistan.com/images/c3a961c0-032f-11f1-abc7-cdf759166736-XtremeDuoBox-2026-02-06074510.png",
           category: "Box Meals",
         },
       ],
@@ -255,38 +304,47 @@ export const menuData = {
     {
       id: "sharing",
       name: "Sharing",
-      image: "https://www.kfcpakistan.com/images/ecea5910-0580-11f1-96bb-af6cbd06c5f6-GTSharing(1)-2026-02-09063111.png",
+      image:
+        "https://www.kfcpakistan.com/images/ecea5910-0580-11f1-96bb-af6cbd06c5f6-GTSharing(1)-2026-02-09063111.png",
       items: [
         {
           id: "value-bucket",
           name: "Value Bucket",
-          description: "Enjoy 9 pcs of our Signature Crispy Fried Chicken, hand-breaded in-house. Rs. 50 from every bucket goes to the Mitao Bhook Foundation.",
+          description:
+            "Enjoy 9 pcs of our Signature Crispy Fried Chicken, hand-breaded in-house. Rs. 50 from every bucket goes to the Mitao Bhook Foundation.",
           price: 2050,
-          image: "https://www.kfcpakistan.com/images/c3a9fe00-032f-11f1-ac61-7b5bb31ece9d-ValueBucket-2026-02-06074510.png",
+          image:
+            "https://www.kfcpakistan.com/images/c3a9fe00-032f-11f1-ac61-7b5bb31ece9d-ValueBucket-2026-02-06074510.png",
           category: "Buckets",
         },
         {
           id: "family-festival-1",
           name: "Family Festival 1",
-          description: "A feel-good meal for the fam. It includes 4 Krunch burgers + 4 pieces Hot and Crispy Chicken + 2 Dinner Rolls + 1.5 Liter drink",
+          description:
+            "A feel-good meal for the fam. It includes 4 Krunch burgers + 4 pieces Hot and Crispy Chicken + 2 Dinner Rolls + 1.5 Liter drink",
           price: 2190,
-          image: "https://www.kfcpakistan.com/images/c3a9c4a0-032f-11f1-ac61-7b5bb31ece9d-FF1Withbottle-2026-02-06074510.png",
+          image:
+            "https://www.kfcpakistan.com/images/c3a9c4a0-032f-11f1-ac61-7b5bb31ece9d-FF1Withbottle-2026-02-06074510.png",
           category: "Family Meals",
         },
         {
           id: "family-festival-2",
           name: "Family Festival 2",
-          description: "A hearty meal for the fam. It includes 2 Zinger burgers + 2 Krunch burgers + 4 pieces Hot and Crispy Chicken + 2 Dinner rolls + 1.5 Liter drink",
+          description:
+            "A hearty meal for the fam. It includes 2 Zinger burgers + 2 Krunch burgers + 4 pieces Hot and Crispy Chicken + 2 Dinner rolls + 1.5 Liter drink",
           price: 2390,
-          image: "https://www.kfcpakistan.com/images/c3a9e2b0-032f-11f1-9cd7-bf0c899c108f-FF2Withbottle-2026-02-06074510.png",
+          image:
+            "https://www.kfcpakistan.com/images/c3a9e2b0-032f-11f1-9cd7-bf0c899c108f-FF2Withbottle-2026-02-06074510.png",
           category: "Family Meals",
         },
         {
           id: "family-festival-3",
           name: "Family Festival 3",
-          description: "An ultimate meal for the fam. It includes 4 Zinger burgers + 4 pieces Hot and Crispy Chicken + 2 Dinner rolls + 1.5 Liter drink",
+          description:
+            "An ultimate meal for the fam. It includes 4 Zinger burgers + 4 pieces Hot and Crispy Chicken + 2 Dinner rolls + 1.5 Liter drink",
           price: 2590,
-          image: "https://www.kfcpakistan.com/images/c3a9fe00-032f-11f1-ac61-7b5bb31ece9d-FF3Withbottle-2026-02-06074510.png",
+          image:
+            "https://www.kfcpakistan.com/images/c3a9fe00-032f-11f1-ac61-7b5bb31ece9d-FF3Withbottle-2026-02-06074510.png",
           category: "Family Meals",
         },
       ],
@@ -295,14 +353,16 @@ export const menuData = {
     {
       id: "snacks-and-beverages",
       name: "Snacks & Beverages",
-      image: "https://www.kfcpakistan.com/images/ecea5910-0580-11f1-96bb-af6cbd06c5f6-GTSnacks-&-Beverages-2026-02-09063111.png",
+      image:
+        "https://www.kfcpakistan.com/images/ecea5910-0580-11f1-96bb-af6cbd06c5f6-GTSnacks-&-Beverages-2026-02-09063111.png",
       items: [
         {
           id: "corn-on-the-cob",
           name: "Corn On The Cob",
           description: "Boiled sweet corn brushed with butter",
           price: 290,
-          image: "https://www.kfcpakistan.com/images/5a2b6f70-0332-11f1-be61-8b04dd48299d-CornOnCob-2026-02-06080615.png",
+          image:
+            "https://www.kfcpakistan.com/images/5a2b6f70-0332-11f1-be61-8b04dd48299d-CornOnCob-2026-02-06080615.png",
           category: "Sides",
         },
         {
@@ -310,7 +370,8 @@ export const menuData = {
           name: "One Piece Chicken",
           description: "1 piece of Hot & Crispy Fried Chicken",
           price: 320,
-          image: "https://www.kfcpakistan.com/images/c3a98760-032f-11f1-abc7-cdf759166736-OnePieceChicken-2026-02-06074510.png",
+          image:
+            "https://www.kfcpakistan.com/images/c3a98760-032f-11f1-abc7-cdf759166736-OnePieceChicken-2026-02-06074510.png",
           category: "Chicken",
         },
         {
@@ -318,7 +379,8 @@ export const menuData = {
           name: "Hot Shots",
           description: "9 Pcs of hand-breaded Hot Shots",
           price: 480,
-          image: "https://www.kfcpakistan.com/images/5a2b4c60-0332-11f1-be61-8b04dd48299d-HotShots-2026-02-06080615.png",
+          image:
+            "https://www.kfcpakistan.com/images/5a2b4c60-0332-11f1-be61-8b04dd48299d-HotShots-2026-02-06080615.png",
           category: "Snacks",
         },
         {
@@ -326,7 +388,8 @@ export const menuData = {
           name: "Chicky Meal 1",
           description: "Krunch + Chicky Fries + Drink",
           price: 550,
-          image: "https://www.kfcpakistan.com/images/b848bcd0-058c-11f1-b9bd-fd77d0888e9a-ChickyMeal1-2026-02-09075537.png",
+          image:
+            "https://www.kfcpakistan.com/images/b848bcd0-058c-11f1-b9bd-fd77d0888e9a-ChickyMeal1-2026-02-09075537.png",
           category: "Kids Meals",
         },
         {
@@ -334,39 +397,48 @@ export const menuData = {
           name: "Chicky Meal 2",
           description: "4 Nuggets + 1 CHICKY FRIES + Slice",
           price: 550,
-          image: "https://www.kfcpakistan.com/images/b848bcd0-058c-11f1-b9bd-fd77d0888e9a-ChickyMeal2-2026-02-09075537.png",
+          image:
+            "https://www.kfcpakistan.com/images/b848bcd0-058c-11f1-b9bd-fd77d0888e9a-ChickyMeal2-2026-02-09075537.png",
           category: "Kids Meals",
         },
         {
           id: "plain-nuggets",
           name: "Plain Nuggets",
-          description: "Indulge in 6 pieces of tender and delicious chicken nuggets",
+          description:
+            "Indulge in 6 pieces of tender and delicious chicken nuggets",
           price: 580,
-          image: "https://www.kfcpakistan.com/images/b848dfe0-058c-11f1-a3ea-b7e26899e5ab-PlainNuggets-2026-02-09075537.png",
+          image:
+            "https://www.kfcpakistan.com/images/b848dfe0-058c-11f1-a3ea-b7e26899e5ab-PlainNuggets-2026-02-09075537.png",
           category: "Snacks",
         },
         {
           id: "buffalo-wings",
           name: "Buffalo Wings",
-          description: "8 Pcs of Hot Wings coated with a spicy Buffalo sauce, topped with chili flakes",
+          description:
+            "8 Pcs of Hot Wings coated with a spicy Buffalo sauce, topped with chili flakes",
           price: 640,
-          image: "https://www.kfcpakistan.com/images/58e37520-0cc4-11f1-978a-4f4b6c4e43a0-BuffaloWings-2026-02-18122126.png",
+          image:
+            "https://www.kfcpakistan.com/images/58e37520-0cc4-11f1-978a-4f4b6c4e43a0-BuffaloWings-2026-02-18122126.png",
           category: "Wings",
         },
         {
           id: "thai-sweet-chili-wings",
           name: "Thai Sweet Chili Wings",
-          description: "8 Pcs of Hot Wings coated with a Sweet Thai Chili sauce, topped with sesame seeds",
+          description:
+            "8 Pcs of Hot Wings coated with a Sweet Thai Chili sauce, topped with sesame seeds",
           price: 640,
-          image: "https://www.kfcpakistan.com/images/58e39830-0cc4-11f1-978a-4f4b6c4e43a0-ThaiSweetChiliWings-2026-02-18122126.png",
+          image:
+            "https://www.kfcpakistan.com/images/58e39830-0cc4-11f1-978a-4f4b6c4e43a0-ThaiSweetChiliWings-2026-02-18122126.png",
           category: "Wings",
         },
         {
           id: "tangy-masala-wings",
           name: "Tangy Masala Wings",
-          description: "8 pcs of Hot Wings coated in a sweet and tangy sauce, dusted with chaat masala",
+          description:
+            "8 pcs of Hot Wings coated in a sweet and tangy sauce, dusted with chaat masala",
           price: 640,
-          image: "https://www.kfcpakistan.com/images/58e3bb40-0cc4-11f1-b9bd-fd77d0888e9a-TangyMasalaWings-2026-02-18122126.png",
+          image:
+            "https://www.kfcpakistan.com/images/58e3bb40-0cc4-11f1-b9bd-fd77d0888e9a-TangyMasalaWings-2026-02-18122126.png",
           category: "Wings",
         },
         {
@@ -374,15 +446,18 @@ export const menuData = {
           name: "Salsa Sprinkle Wings",
           description: "8 Pcs Salsa Sprinkle Wings Bucket",
           price: 640,
-          image: "https://www.kfcpakistan.com/images/58e3de50-0cc4-11f1-80f2-d9425fcae453-SalsaSprinkleWings-2026-02-18122126.png",
+          image:
+            "https://www.kfcpakistan.com/images/58e3de50-0cc4-11f1-80f2-d9425fcae453-SalsaSprinkleWings-2026-02-18122126.png",
           category: "Wings",
         },
         {
           id: "snack-bucket",
           name: "Snack Bucket",
-          description: "4 Hot Wings + 4 Hot Shots + 2 Strips and 1 Dip. Satisfy your cravings with our snack bucket.",
+          description:
+            "4 Hot Wings + 4 Hot Shots + 2 Strips and 1 Dip. Satisfy your cravings with our snack bucket.",
           price: 650,
-          image: "https://www.kfcpakistan.com/images/b84926b0-058c-11f1-96bb-af6cbd06c5f6-SnackBucket-2026-02-09075537.png",
+          image:
+            "https://www.kfcpakistan.com/images/b84926b0-058c-11f1-96bb-af6cbd06c5f6-SnackBucket-2026-02-09075537.png",
           category: "Buckets",
         },
         {
@@ -390,7 +465,8 @@ export const menuData = {
           name: "Hot Wings Bucket",
           description: "10 Pcs of our Signature Hot & Crispy Wings",
           price: 670,
-          image: "https://www.kfcpakistan.com/images/58e39830-0cc4-11f1-b9bd-fd77d0888e9a-HotWingsBucket-2026-02-18122126.png",
+          image:
+            "https://www.kfcpakistan.com/images/58e39830-0cc4-11f1-b9bd-fd77d0888e9a-HotWingsBucket-2026-02-18122126.png",
           category: "Wings",
         },
       ],
@@ -399,14 +475,16 @@ export const menuData = {
     {
       id: "fries-and-sides",
       name: "Fries & Sides",
-      image: "https://www.kfcpakistan.com/images/ecea5910-0580-11f1-96bb-af6cbd06c5f6-GTSnacks-&-Beverages-2026-02-09063111.png",
+      image:
+        "https://www.kfcpakistan.com/images/ecea5910-0580-11f1-96bb-af6cbd06c5f6-GTSnacks-&-Beverages-2026-02-09063111.png",
       items: [
         {
           id: "fries-regular",
           name: "Fries",
           description: "Crispy and Golden Fries",
           price: 340,
-          image: "https://www.kfcpakistan.com/images/b5d1f500-0332-11f1-be61-8b04dd48299d-FriesRegular-2026-02-06080615.png",
+          image:
+            "https://www.kfcpakistan.com/images/b5d1f500-0332-11f1-be61-8b04dd48299d-FriesRegular-2026-02-06080615.png",
           category: "Sides",
         },
         {
@@ -414,7 +492,8 @@ export const menuData = {
           name: "Masala Fries",
           description: "Masala Crispy and Golden Fries",
           price: 360,
-          image: "https://www.kfcpakistan.com/images/b5d1f500-0332-11f1-be61-8b04dd48299d-MasalaFries-2026-02-06080615.png",
+          image:
+            "https://www.kfcpakistan.com/images/b5d1f500-0332-11f1-be61-8b04dd48299d-MasalaFries-2026-02-06080615.png",
           category: "Sides",
         },
         {
@@ -422,7 +501,8 @@ export const menuData = {
           name: "Fries Bucket",
           description: "Fries Bucket Without Dip",
           price: 450,
-          image: "https://www.kfcpakistan.com/images/b5d21c10-0332-11f1-bced-37eb4037a5af-FriesBucket-2026-02-06080615.png",
+          image:
+            "https://www.kfcpakistan.com/images/b5d21c10-0332-11f1-bced-37eb4037a5af-FriesBucket-2026-02-06080615.png",
           category: "Sides",
         },
         {
@@ -430,7 +510,8 @@ export const menuData = {
           name: "Fries Bucket with Dip",
           description: "Fries Bucket with Dip",
           price: 470,
-          image: "https://www.kfcpakistan.com/images/b5d21c10-0332-11f1-bced-37eb4037a5af-FriesBucketDip-2026-02-06080615.png",
+          image:
+            "https://www.kfcpakistan.com/images/b5d21c10-0332-11f1-bced-37eb4037a5af-FriesBucketDip-2026-02-06080615.png",
           category: "Sides",
         },
         {
@@ -438,15 +519,18 @@ export const menuData = {
           name: "Masala Fries Bucket",
           description: "Masala Crispy and Golden Fries Bucket",
           price: 490,
-          image: "https://www.kfcpakistan.com/images/b5d21c10-0332-11f1-bced-37eb4037a5af-MasalaFriesBucket-2026-02-06080615.png",
+          image:
+            "https://www.kfcpakistan.com/images/b5d21c10-0332-11f1-bced-37eb4037a5af-MasalaFriesBucket-2026-02-06080615.png",
           category: "Sides",
         },
         {
           id: "cheesy-chicken-loaded-fries",
           name: "Cheesy Chicken Loaded Fries",
-          description: "Topped with crispy hot shots, cheese sauce and spicy jalapeños—it's the ultimate flavor-packed treat!",
+          description:
+            "Topped with crispy hot shots, cheese sauce and spicy jalapeños—it's the ultimate flavor-packed treat!",
           price: 650,
-          image: "https://www.kfcpakistan.com/images/b84926b0-058c-11f1-96bb-af6cbd06c5f6-CheesyLoadedFries-2026-02-09075537.png",
+          image:
+            "https://www.kfcpakistan.com/images/b84926b0-058c-11f1-96bb-af6cbd06c5f6-CheesyLoadedFries-2026-02-09075537.png",
           category: "Sides",
         },
         {
@@ -454,7 +538,8 @@ export const menuData = {
           name: "Coleslaw",
           description: "Sliced cabbage and carrots tossed in mayo",
           price: 150,
-          image: "https://www.kfcpakistan.com/images/5a2b9260-0332-11f1-9cd7-bf0c899c108f-Coleslaw-2026-02-06080615.png",
+          image:
+            "https://www.kfcpakistan.com/images/5a2b9260-0332-11f1-9cd7-bf0c899c108f-Coleslaw-2026-02-06080615.png",
           category: "Sides",
         },
         {
@@ -462,7 +547,8 @@ export const menuData = {
           name: "Dinner Roll",
           description: "Soft and fluffy, it complements any meal perfectly",
           price: 50,
-          image: "https://www.kfcpakistan.com/images/5a2b9260-0332-11f1-9cd7-bf0c899c108f-DinnerRoll-2026-02-06080615.png",
+          image:
+            "https://www.kfcpakistan.com/images/5a2b9260-0332-11f1-9cd7-bf0c899c108f-DinnerRoll-2026-02-06080615.png",
           category: "Sides",
         },
       ],
@@ -471,22 +557,26 @@ export const menuData = {
     {
       id: "dips",
       name: "Dips",
-      image: "https://www.kfcpakistan.com/images/ecea5910-0580-11f1-96bb-af6cbd06c5f6-GTSnacks-&-Beverages-2026-02-09063111.png",
+      image:
+        "https://www.kfcpakistan.com/images/ecea5910-0580-11f1-96bb-af6cbd06c5f6-GTSnacks-&-Beverages-2026-02-09063111.png",
       items: [
         {
           id: "mayo-dip",
           name: "Mayo Dip",
           description: "Creamy mayo for your dipping needs",
           price: 75,
-          image: "https://www.kfcpakistan.com/images/b848bcd0-058c-11f1-b9bd-fd77d0888e9a-MayoDip-2026-02-09075537.png",
+          image:
+            "https://www.kfcpakistan.com/images/b848bcd0-058c-11f1-b9bd-fd77d0888e9a-MayoDip-2026-02-09075537.png",
           category: "Dips",
         },
         {
           id: "vietnamese-dip",
           name: "Vietnamese Dip",
-          description: "Our spicy and sour signature sauce. Pair it with our fried chicken and fries for the win",
+          description:
+            "Our spicy and sour signature sauce. Pair it with our fried chicken and fries for the win",
           price: 75,
-          image: "https://www.kfcpakistan.com/images/b848bcd0-058c-11f1-b9bd-fd77d0888e9a-VietnameseDip-2026-02-09075537.png",
+          image:
+            "https://www.kfcpakistan.com/images/b848bcd0-058c-11f1-b9bd-fd77d0888e9a-VietnameseDip-2026-02-09075537.png",
           category: "Dips",
         },
         {
@@ -494,7 +584,8 @@ export const menuData = {
           name: "Creamy Ranch",
           description: "Smooth and tangy Creamy Ranch Dip served with meals",
           price: 75,
-          image: "https://www.kfcpakistan.com/images/b848bcd0-058c-11f1-b9bd-fd77d0888e9a-CreamyRanch-2026-02-09075537.png",
+          image:
+            "https://www.kfcpakistan.com/images/b848bcd0-058c-11f1-b9bd-fd77d0888e9a-CreamyRanch-2026-02-09075537.png",
           category: "Dips",
         },
         {
@@ -502,7 +593,8 @@ export const menuData = {
           name: "Spicy Mayo",
           description: "Spicy Mayo Dip with creamy texture and fiery flavor",
           price: 100,
-          image: "https://www.kfcpakistan.com/images/b848bcd0-058c-11f1-b9bd-fd77d0888e9a-SpicyMayo-2026-02-09075537.png",
+          image:
+            "https://www.kfcpakistan.com/images/b848bcd0-058c-11f1-b9bd-fd77d0888e9a-SpicyMayo-2026-02-09075537.png",
           category: "Dips",
         },
         {
@@ -510,7 +602,8 @@ export const menuData = {
           name: "Smoke Show",
           description: "Bold and smoky flavored Smoke Show Dip in a cup",
           price: 75,
-          image: "https://www.kfcpakistan.com/images/b848bcd0-058c-11f1-b9bd-fd77d0888e9a-SmokeShow-2026-02-09075537.png",
+          image:
+            "https://www.kfcpakistan.com/images/b848bcd0-058c-11f1-b9bd-fd77d0888e9a-SmokeShow-2026-02-09075537.png",
           category: "Dips",
         },
       ],
@@ -519,54 +612,67 @@ export const menuData = {
     {
       id: "beverages",
       name: "Beverages",
-      image: "https://www.kfcpakistan.com/images/ecea5910-0580-11f1-96bb-af6cbd06c5f6-GTSnacks-&-Beverages-2026-02-09063111.png",
+      image:
+        "https://www.kfcpakistan.com/images/ecea5910-0580-11f1-96bb-af6cbd06c5f6-GTSnacks-&-Beverages-2026-02-09063111.png",
       items: [
         {
           id: "pepsi-regular",
           name: "Pepsi Regular",
-          description: "Quench your thirst with the classic taste of Pepsi in a regular-sized bottle 345ml",
+          description:
+            "Quench your thirst with the classic taste of Pepsi in a regular-sized bottle 345ml",
           price: 180,
-          image: "https://www.kfcpakistan.com/images/b8489bb0-058c-11f1-a3ea-b7e26899e5ab-PepsiRegular-2026-02-09075537.png",
+          image:
+            "https://www.kfcpakistan.com/images/b8489bb0-058c-11f1-a3ea-b7e26899e5ab-PepsiRegular-2026-02-09075537.png",
           category: "Beverages",
         },
         {
           id: "7up-regular",
           name: "7UP Regular",
-          description: "Experience the crisp and refreshing taste of 7UP in a regular-sized bottle 345ml",
+          description:
+            "Experience the crisp and refreshing taste of 7UP in a regular-sized bottle 345ml",
           price: 180,
-          image: "https://www.kfcpakistan.com/images/b8489bb0-058c-11f1-a3ea-b7e26899e5ab-7UPRegular-2026-02-09075537.png",
+          image:
+            "https://www.kfcpakistan.com/images/b8489bb0-058c-11f1-a3ea-b7e26899e5ab-7UPRegular-2026-02-09075537.png",
           category: "Beverages",
         },
         {
           id: "mirinda-regular",
           name: "Mirinda Regular",
-          description: "Satisfy your taste buds with the vibrant and fizzy flavor of Mirinda in a regular-sized bottle 345ml",
+          description:
+            "Satisfy your taste buds with the vibrant and fizzy flavor of Mirinda in a regular-sized bottle 345ml",
           price: 180,
-          image: "https://www.kfcpakistan.com/images/b8489bb0-058c-11f1-a3ea-b7e26899e5ab-MirindaRegular-2026-02-09075537.png",
+          image:
+            "https://www.kfcpakistan.com/images/b8489bb0-058c-11f1-a3ea-b7e26899e5ab-MirindaRegular-2026-02-09075537.png",
           category: "Beverages",
         },
         {
           id: "sting-berry-blast",
           name: "Sting Berry Blast",
-          description: "Power up with the bold, electrifying taste of Sting energy drink in a 345ml bottle.",
+          description:
+            "Power up with the bold, electrifying taste of Sting energy drink in a 345ml bottle.",
           price: 180,
-          image: "https://www.kfcpakistan.com/images/b8489bb0-058c-11f1-a3ea-b7e26899e5ab-StingBerry-2026-02-09075537.png",
+          image:
+            "https://www.kfcpakistan.com/images/b8489bb0-058c-11f1-a3ea-b7e26899e5ab-StingBerry-2026-02-09075537.png",
           category: "Beverages",
         },
         {
           id: "mountain-dew-regular",
           name: "Mountain Dew Regular",
-          description: "Energize yourself with the bold and exhilarating taste of Mountain Dew in a regular-sized bottle 345ml",
+          description:
+            "Energize yourself with the bold and exhilarating taste of Mountain Dew in a regular-sized bottle 345ml",
           price: 180,
-          image: "https://www.kfcpakistan.com/images/b8489bb0-058c-11f1-a3ea-b7e26899e5ab-MountainDew-2026-02-09075537.png",
+          image:
+            "https://www.kfcpakistan.com/images/b8489bb0-058c-11f1-a3ea-b7e26899e5ab-MountainDew-2026-02-09075537.png",
           category: "Beverages",
         },
         {
           id: "7up-mint",
           name: "7UP Mint",
-          description: "Enjoy the refreshing burst of lemon-lime with a cool mint twist in a 345ml bottle.",
+          description:
+            "Enjoy the refreshing burst of lemon-lime with a cool mint twist in a 345ml bottle.",
           price: 180,
-          image: "https://www.kfcpakistan.com/images/b8489bb0-058c-11f1-a3ea-b7e26899e5ab-7UPMint-2026-02-09075537.png",
+          image:
+            "https://www.kfcpakistan.com/images/b8489bb0-058c-11f1-a3ea-b7e26899e5ab-7UPMint-2026-02-09075537.png",
           category: "Beverages",
         },
       ],
@@ -575,14 +681,16 @@ export const menuData = {
     {
       id: "midnight-deals",
       name: "Midnight Deals",
-      image: "https://www.kfcpakistan.com/images/945d43e0-04e8-11f1-9ab5-3bcf9765e847-GTEverydayValue-2026-02-08122039.png",
+      image:
+        "https://www.kfcpakistan.com/images/945d43e0-04e8-11f1-9ab5-3bcf9765e847-GTEverydayValue-2026-02-08122039.png",
       items: [
         {
           id: "midnight-deal-1",
           name: "Midnight Deal 1",
           description: "1 Zinger burger + 1 regular drink",
           price: 520,
-          image: "https://www.kfcpakistan.com/images/ee7b59b0-781a-11f0-a0e6-275ef3706e5f-MidnightDeal1-2025-08-13075551.png",
+          image:
+            "https://www.kfcpakistan.com/images/ee7b59b0-781a-11f0-a0e6-275ef3706e5f-MidnightDeal1-2025-08-13075551.png",
           category: "Midnight Deals",
         },
         {
@@ -590,7 +698,8 @@ export const menuData = {
           name: "Midnight Deal 2",
           description: "2 Krunch burgers + 2 regular drinks",
           price: 610,
-          image: "https://www.kfcpakistan.com/images/ee7b82c0-781a-11f0-a0e6-275ef3706e5f-MidnightDeal2-2025-08-13075551.png",
+          image:
+            "https://www.kfcpakistan.com/images/ee7b82c0-781a-11f0-a0e6-275ef3706e5f-MidnightDeal2-2025-08-13075551.png",
           category: "Midnight Deals",
         },
         {
@@ -598,7 +707,8 @@ export const menuData = {
           name: "Midnight Deal 3",
           description: "Mighty Zinger + Regular drink",
           price: 710,
-          image: "https://www.kfcpakistan.com/images/ee7b82c0-781a-11f0-a0e6-275ef3706e5f-MidnightDeal3-2025-08-13075551.png",
+          image:
+            "https://www.kfcpakistan.com/images/ee7b82c0-781a-11f0-a0e6-275ef3706e5f-MidnightDeal3-2025-08-13075551.png",
           category: "Midnight Deals",
         },
       ],
@@ -607,8 +717,18 @@ export const menuData = {
 
   // IDs only — resolved at runtime to avoid duplication and price mismatches
   featured: {
-    best_sellers: ["krunch-burger", "mighty-zinger", "chicken-and-chips", "hot-wings-bucket"],
-    top_deals: ["strips-chips-n-dips", "family-festival-3", "value-bucket", "xtreme-duo-box"],
+    best_sellers: [
+      "krunch-burger",
+      "mighty-zinger",
+      "chicken-and-chips",
+      "hot-wings-bucket",
+    ],
+    top_deals: [
+      "strips-chips-n-dips",
+      "family-festival-3",
+      "value-bucket",
+      "xtreme-duo-box",
+    ],
   },
 };
 
@@ -616,3 +736,68 @@ export const menu_ctgs = menuData.menu_sections.map((section) => ({
   id: section.id,
   label: section.name,
 }));
+
+export const cart_data = {
+  items: [
+    {
+      name: "Ramzan Combo",
+      description: "Ramzan Combo",
+      price: 1100,
+      quantity: 2,
+      addons: ["Pepsi Regular"],
+      image:
+        "https://www.kfcpakistan.com/images/58e2d4e0-0cc4-11f1-bc9a-0b2a71d79caf-AppwebKioskThumbnailcopy(1)-2026-02-18122126.png",
+    },
+    {
+      name: "Ramzan Yaari Deal",
+      description: "Ramzan Yaari Deal",
+      price: 1790,
+      quantity: 1,
+      addons: ["Pepsi Regular"],
+      image:
+        "https://www.kfcpakistan.com/images/58e2d4e0-0cc4-11f1-bc9a-0b2a71d79caf-AppwebKioskThumbnailcopy(1)-2026-02-18122126.png",
+    },
+    {
+      name: "Zingeratha",
+      description:
+        "Tender boneless strips, sliced onions, tangy imli chutney, and mint mayo wrapped in a soft paratha",
+      price: 390,
+      quantity: 1,
+      addons: [],
+      image:
+        "https://www.kfcpakistan.com/images/c3a9afe0-032f-11f1-b496-45c544712488-Zingeratha_variant_0-2026-02-06074510.png",
+    },
+    {
+      name: "Krunch Burger",
+      description: "Krunch Burger",
+      price: 310,
+      quantity: 1,
+      addons: [],
+      image:
+        "https://www.kfcpakistan.com/images/3df28210-0356-11f1-b8c8-9d1458b09f1f-KrunchBurger_variant_0-2026-02-06122036.png",
+    },
+    {
+      name: "Twister Combo",
+      description:
+        "A delicious combo featuring the Twister wrap, crispy fries, and a refreshing drink",
+      price: 710,
+      quantity: 1,
+      addons: [],
+      image:
+        "https://www.kfcpakistan.com/images/58e2d4e0-0cc4-11f1-bc9a-0b2a71d79caf-AppwebKioskThumbnailcopy(1)-2026-02-18122126.png",
+    },
+    {
+      name: "Pepsi Regular",
+      description: "Pepsi Regular",
+      price: 0,
+      quantity: 2,
+      addons: [],
+      image:
+        "https://www.kfcpakistan.com/images/58e2d4e0-0cc4-11f1-bc9a-0b2a71d79caf-AppwebKioskThumbnailcopy(1)-2026-02-18122126.png",
+    },
+  ],
+  summary: {
+    totalItems: 6,
+    totalPrice: 4300,
+  },
+};

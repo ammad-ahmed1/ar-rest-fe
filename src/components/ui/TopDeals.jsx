@@ -1,8 +1,10 @@
 import { top_deals } from "../../data/homepage-data";
 import SectionHeader from "./SectionHeader";
 import MenuItemCard from "../shared/MenuItemCard";
+import { useNavigate } from "react-router-dom";
 
 const TopDeals = () => {
+  const navigate = useNavigate();
   return (
     <div className="container-content py-10">
       {/* Header */}
@@ -17,19 +19,20 @@ const TopDeals = () => {
             description={item.description}
             price={item.price}
             showBadge
+            onClick={() => navigate("/menu")}
           />
         ))}
       </div>
       <div className="flex flex-col md:flex-row gap-2 mt-8 md:mt-16">
         <img
           src="https://www.kfcpakistan.com/static/media/pickup.a1ba2c21d4d480d9de3a.jpg"
-          //   alt={item.title}
-          className="w-full md:w-1/2 rounded-md"
+          className="w-full md:w-1/2 rounded-md cursor-pointer"
+          onClick={() => navigate("/menu")}
         />
         <img
           src="https://www.kfcpakistan.com/static/media/mitaoBhook.22dd9e0f28c298811242.jpg"
-          //   alt={item.title}
-          className="w-full md:w-1/2 rounded-md"
+          className="w-full md:w-1/2 rounded-md cursor-pointer"
+          onClick={() => navigate("/menu")}
         />
       </div>
     </div>

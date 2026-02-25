@@ -2,8 +2,10 @@ import React, { useState } from "react";
 import logo from "../../assets/images/logo.png";
 import { RiMenu2Line } from "react-icons/ri";
 import ButtonUI from "../shared/Button";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
+  const navigate = useNavigate();
   const [selectedOption, setSelectedOption] = useState("delivery");
   const handleOptionClick = (option) => {
     setSelectedOption(option);
@@ -23,9 +25,8 @@ const Navbar = () => {
               <img
                 src={logo}
                 alt="Logo"
-                style={{
-                  height: "36px",
-                }}
+                style={{ height: "36px", cursor: "pointer" }}
+                onClick={() => navigate("/")}
               />
               <span className="hidden md:flex gap-2 ">
                 <ButtonUI variant="secondary" px={3} isActive={selectedOption === "delivery"} onClick={() => handleOptionClick("delivery")}>

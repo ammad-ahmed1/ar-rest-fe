@@ -9,11 +9,14 @@ const MenuItemCard = ({
   price,
   showBadge = false,
   className = "",
+  onAdd,
+  onClick,
 }) => {
   return (
     // <div className="w-full relative">
     <div
-      className={`relative bg-[#1C1816] rounded-md flex-shrink-0 w-[50%] md:w-[33%] max-w-[325px] lg:w-auto flex flex-col ${className}`}
+      className={`relative bg-[#1C1816] rounded-md flex-shrink-0 w-[45%] md:w-[33%] max-w-[325px] lg:w-auto flex flex-col ${className}`}
+      onClick={onClick}
     >
       {showBadge && <KfcCardBadge />}
       <div className="icon absolute top-1 right-1">
@@ -32,8 +35,7 @@ const MenuItemCard = ({
       </div>
       <div className="mt-4 w-full">
         <div className="absolute -bottom-3 left-1/2 -translate-x-1/2">
-          <ButtonUI variant="primary" sx={{ width: "120px" }}>
-            {/* <RiAddLine /> */}
+          <ButtonUI variant="primary" sx={{ width: "120px" }} onClick={onAdd}>
             <span className="text-xs font-extrabold">ADD TO BUCKET</span>
           </ButtonUI>
         </div>

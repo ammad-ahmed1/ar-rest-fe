@@ -1,6 +1,7 @@
 import Button from "@mui/material/Button";
 import React from "react";
 import Slider from "react-slick";
+import { useNavigate } from "react-router-dom";
 
 const slideImages = [
   "https://www.kfcpakistan.com/images/58e34a10-0cc4-11f1-bef6-77867c9f4fed-Webbanner_desktop_image-2026-02-18122126.jpeg",
@@ -10,13 +11,14 @@ const slideImages = [
   "https://www.kfcpakistan.com/images/9fe8e0f0-f112-11f0-97d3-1f3c40e25119-Merch_desktop_image-2026-01-14063114.jpeg",
 ];
 
-const SlideImage = ({ src }) => (
-  <div className="">
+const SlideImage = ({ src, onClick }) => (
+  <div className="cursor-pointer" onClick={onClick}>
     <img src={src} alt="Hero Image" className="w-full contained-object" />
   </div>
 );
 
 const Hero = () => {
+  const navigate = useNavigate();
   const settings = {
     dots: false,
     infinite: true,
@@ -33,7 +35,7 @@ const Hero = () => {
       <div className="hero-slider relative !w-full">
         <Slider {...settings}>
           {slideImages.map((src, index) => (
-            <SlideImage key={index} src={src} />
+            <SlideImage key={index} src={src} onClick={() => navigate("/menu")} />
           ))}
         </Slider>
       </div>
@@ -54,6 +56,7 @@ const Hero = () => {
               sm: "45%", // ≥600px
             },
           }}
+          onClick={() => navigate("/menu")}
         >
           <span style={{ marginLeft: "2px" }}>REORDER</span>
         </Button>
