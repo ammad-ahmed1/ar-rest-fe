@@ -19,7 +19,10 @@ const Navbar = () => {
         <div className="container-content py-1 pb-2 md:pb-2 md:py-3 lg:py-6">
           <div className="flex justify-between">
             <div className="left flex gap-4 items-center">
-              <div className="cursor-pointer" onClick={() => setSidebarOpen(true)}>
+              <div
+                className="cursor-pointer"
+                onClick={() => setSidebarOpen(true)}
+              >
                 <RiMenu2Line
                   size={26}
                   className="text-white font-weight-bold"
@@ -32,16 +35,43 @@ const Navbar = () => {
                 onClick={() => navigate("/")}
               />
               <span className="hidden md:flex gap-2 ">
-                <ButtonUI variant="secondary" px={3} isActive={selectedOption === "delivery"} onClick={() => handleOptionClick("delivery")}>
-                  <img src="https://www.kfcpakistan.com/static/media/Delivery.793adbaa710baf75ba78.png" alt="Delivery" style={{ height: "20px" }} />
+                <ButtonUI
+                  variant="secondary"
+                  px={3}
+                  isActive={selectedOption === "delivery"}
+                  onClick={() => handleOptionClick("delivery")}
+                >
+                  <img
+                    src="https://www.kfcpakistan.com/static/media/Delivery.793adbaa710baf75ba78.png"
+                    alt="Delivery"
+                    style={{ height: "20px" }}
+                  />
                   <span style={{ marginLeft: "4px" }}>DELIVERY</span>
                 </ButtonUI>
-                <ButtonUI variant="secondary" px={3} isActive={selectedOption === "pickup"} onClick={() => handleOptionClick("pickup")}>
-                  <img src="https://www.kfcpakistan.com/static/media/pickup.47bb874f83ea6acb5a47.png" alt="Pickup" style={{ height: "20px" }} />
+                <ButtonUI
+                  variant="secondary"
+                  px={3}
+                  isActive={selectedOption === "pickup"}
+                  onClick={() => handleOptionClick("pickup")}
+                >
+                  <img
+                    src="https://www.kfcpakistan.com/static/media/pickup.47bb874f83ea6acb5a47.png"
+                    alt="Pickup"
+                    style={{ height: "20px" }}
+                  />
                   <span style={{ marginLeft: "2px" }}>PICKUP</span>
                 </ButtonUI>
-                <ButtonUI variant="secondary" px={3} isActive={selectedOption === "merchant"} onClick={() => handleOptionClick("merchant")}>
-                  <img src="https://www.kfcpakistan.com/static/media/kfc_merch_icon.2fbdafb9a4c96d69df4a.png" alt="Merch" style={{ height: "20px" }} />
+                <ButtonUI
+                  variant="secondary"
+                  px={3}
+                  isActive={selectedOption === "merchant"}
+                  onClick={() => handleOptionClick("merchant")}
+                >
+                  <img
+                    src="https://www.kfcpakistan.com/static/media/kfc_merch_icon.2fbdafb9a4c96d69df4a.png"
+                    alt="Merch"
+                    style={{ height: "20px" }}
+                  />
                   <span style={{ marginLeft: "2px" }}>MERCH</span>
                 </ButtonUI>
               </span>
@@ -66,20 +96,49 @@ const Navbar = () => {
                   style={{ height: "40px" }}
                 />
               </ButtonUI>
-              <ButtonUI variant="primary">LOGIN</ButtonUI>
+              <ButtonUI variant="primary" onClick={() => navigate("/login")}>
+                LOGIN
+              </ButtonUI>
             </div>
           </div>
           <span className="flex md:hidden gap-4 mt-2">
-            <ButtonUI variant="secondary" px={4} isActive={selectedOption === "delivery"} onClick={() => handleOptionClick("delivery")}>
-              <img src="https://www.kfcpakistan.com/static/media/Delivery.793adbaa710baf75ba78.png" alt="Delivery" style={{ height: "20px" }} />
+            <ButtonUI
+              variant="secondary"
+              px={4}
+              isActive={selectedOption === "delivery"}
+              onClick={() => handleOptionClick("delivery")}
+            >
+              <img
+                src="https://www.kfcpakistan.com/static/media/Delivery.793adbaa710baf75ba78.png"
+                alt="Delivery"
+                style={{ height: "20px" }}
+              />
               <span style={{ marginLeft: "4px" }}>DELIVERY</span>
             </ButtonUI>
-            <ButtonUI variant="secondary" px={4} isActive={selectedOption === "pickup"} onClick={() => handleOptionClick("pickup")}>
-              <img src="https://www.kfcpakistan.com/static/media/pickup.47bb874f83ea6acb5a47.png" alt="Pickup" style={{ height: "20px" }} />
+            <ButtonUI
+              variant="secondary"
+              px={4}
+              isActive={selectedOption === "pickup"}
+              onClick={() => handleOptionClick("pickup")}
+            >
+              <img
+                src="https://www.kfcpakistan.com/static/media/pickup.47bb874f83ea6acb5a47.png"
+                alt="Pickup"
+                style={{ height: "20px" }}
+              />
               <span style={{ marginLeft: "2px" }}>PICKUP</span>
             </ButtonUI>
-            <ButtonUI variant="secondary" px={4} isActive={selectedOption === "merchant"} onClick={() => handleOptionClick("merchant")}>
-              <img src="https://www.kfcpakistan.com/static/media/kfc_merch_icon.2fbdafb9a4c96d69df4a.png" alt="Merch" style={{ height: "20px" }} />
+            <ButtonUI
+              variant="secondary"
+              px={4}
+              isActive={selectedOption === "merchant"}
+              onClick={() => handleOptionClick("merchant")}
+            >
+              <img
+                src="https://www.kfcpakistan.com/static/media/kfc_merch_icon.2fbdafb9a4c96d69df4a.png"
+                alt="Merch"
+                style={{ height: "20px" }}
+              />
               <span style={{ marginLeft: "2px" }}>MERCH</span>
             </ButtonUI>
           </span>

@@ -4,10 +4,13 @@ import Layout from "./components/layout/Layout";
 import Homepage from "./pages/Homepage";
 import Menu from "./pages/Menu";
 import Cart from "./pages/Cart";
+import Login from "./pages/Login";
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
-  useEffect(() => { window.scrollTo(0, 0); }, [pathname]);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
   return null;
 };
 
@@ -20,6 +23,7 @@ function App() {
           <Route path="/" element={<Homepage />} />
           <Route path="/menu" element={<Menu />} />
           <Route path="/cart" element={<Cart />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
       </Layout>
     </BrowserRouter>
