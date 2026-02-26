@@ -3,6 +3,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { explore_menu, explore_menu_mobile } from "../../data/homepage-data";
 import SectionHeader from "./SectionHeader";
+import ModalUI from "../shared/Modal";
+import { useState } from "react";
 
 const ExploreMenu = () => {
   const settings = {
@@ -22,7 +24,6 @@ const ExploreMenu = () => {
       { breakpoint: 480, settings: { slidesToShow: 2 } },
     ],
   };
-
   return (
     <div className="container-content ">
       {/* Header */}
