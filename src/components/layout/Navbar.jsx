@@ -3,20 +3,23 @@ import logo from "../../assets/images/logo.png";
 import { RiMenu2Line } from "react-icons/ri";
 import ButtonUI from "../shared/Button";
 import { useNavigate } from "react-router-dom";
+import Sidebar from "./Sidebar";
 
 const Navbar = () => {
   const navigate = useNavigate();
   const [selectedOption, setSelectedOption] = useState("delivery");
+  const [sidebarOpen, setSidebarOpen] = useState(false);
   const handleOptionClick = (option) => {
     setSelectedOption(option);
   };
   return (
     <>
+      <Sidebar open={sidebarOpen} onClose={() => setSidebarOpen(false)} />
       <div className="fixed top-0 left-0 right-0 z-50 bg-black">
         <div className="container-content py-1 pb-2 md:pb-2 md:py-3 lg:py-6">
           <div className="flex justify-between">
             <div className="left flex gap-4 items-center">
-              <div className="">
+              <div className="cursor-pointer" onClick={() => setSidebarOpen(true)}>
                 <RiMenu2Line
                   size={26}
                   className="text-white font-weight-bold"
