@@ -11,10 +11,10 @@ const ButtonUI = ({
   py = 0.75,
   sx: extraSx,
 }) => {
-  const bgMap = {
-    primary: "background.primary",
-    secondary: "background.paper",
-    transparent: "transparent",
+  const styleMap = {
+    primary:     { backgroundColor: "primary.main",     color: "#fff" },
+    secondary:   { backgroundColor: "background.paper", color: "text.primary" },
+    transparent: { backgroundColor: "transparent",      color: "text.primary" },
   };
 
   return (
@@ -28,7 +28,8 @@ const ButtonUI = ({
         px,
         py,
         borderRadius: "4px",
-        backgroundColor: bgMap[variant],
+        backgroundColor: styleMap[variant].backgroundColor,
+        color: styleMap[variant].color,
         border: isActive ? "1px solid red" : "none",
         fontWeight: "700",
         fontSize: "12.5px",

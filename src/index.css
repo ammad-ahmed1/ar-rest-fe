@@ -15,12 +15,12 @@
   background: transparent;
 }
 .best-sellers-scroll::-webkit-scrollbar-thumb {
-  background-color: #ef4444;
+  background-color: var(--color-surface);
   border-radius: 999px;
 }
 .best-sellers-scroll {
   scrollbar-width: thin;
-  scrollbar-color: #1c1816 transparent;
+  scrollbar-color: var(--color-surface) transparent;
 }
 
 .cart-body-scroll::-webkit-scrollbar {

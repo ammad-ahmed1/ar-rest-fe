@@ -4,8 +4,11 @@ module.exports = {
     extend: {
       colors: {
         primary: "#E4002B",
-        background: "#0F0F0F",
-        surface: "#1A1A1A",
+        background: "var(--color-background)",
+        surface: "var(--color-surface)",
+        foreground: "var(--color-text-primary)",
+        muted: "var(--color-text-secondary)",
+        "border-color": "var(--color-border)",
       },
       borderRadius: {
         md: "12px",

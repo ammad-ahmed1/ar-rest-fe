@@ -24,14 +24,14 @@ const BestSellers = () => {
         {best_sellers?.map((item) => (
           <div
             key={item.id}
-            className="w-[190px] md:w-[205px] lg:w-[265px] 2xl:w-[300px] relative flex-shrink-0 bg-[#1C1816] overflow-hidden rounded-sm shadow-lg pointer"
+            className="w-[190px] md:w-[205px] lg:w-[265px] 2xl:w-[300px] relative flex-shrink-0 bg-surface overflow-hidden rounded-sm shadow-lg pointer"
             onClick={() => {
               handleOpenModal();
             }}
           >
             <KfcCardBadge />
             <div className="product-name absolute top-[12%] left-[4%]">
-              <h3 className="text-lg font-bold ">{item.title}</h3>
+              <h3 className="text-lg font-bold text-foreground">{item.title}</h3>
             </div>
 
             <span
@@ -91,7 +91,7 @@ const BestSellers = () => {
 
                     <AccordionDetails
                       sx={{
-                        bgcolor: "#000",
+                        bgcolor: "background.default",
                         p: 0,
                         borderBottomLeftRadius: 0,
                         borderBottomRightRadius: 0,

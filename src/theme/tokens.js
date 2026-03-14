@@ -5,8 +5,8 @@ export const tokens = (mode) => {
     colors: {
       primary: "#E4002B",
 
-      background: isDark ? "black" : "#FFFFFF",
-      surface: isDark ? "#1C1816" : "rgba(223, 239, 255, 0.3)",
+      background: isDark ? "#000000" : "#F2F2F2",
+      surface: isDark ? "#1C1816" : "#FFFFFF",
 
       textPrimary: isDark ? "#FFFFFF" : "#111111",
       textSecondary: isDark ? "#A3A3A3" : "#555555",

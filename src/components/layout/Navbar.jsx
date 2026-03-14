@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <>
       <Sidebar open={sidebarOpen} onClose={() => setSidebarOpen(false)} />
-      <div className="fixed top-0 left-0 right-0 z-50 bg-black">
+      <div className="fixed top-0 left-0 right-0 z-50 bg-background">
         <div className="container-content py-1 pb-2 md:pb-2 md:py-3 lg:py-6">
           <div className="flex justify-between">
             <div className="left flex gap-4 items-center">
@@ -25,7 +25,7 @@ const Navbar = () => {
               >
                 <RiMenu2Line
                   size={26}
-                  className="text-white font-weight-bold"
+                  className="text-foreground font-weight-bold"
                 />
               </div>
               <img

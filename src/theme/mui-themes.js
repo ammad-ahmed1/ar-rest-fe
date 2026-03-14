@@ -1,11 +1,9 @@
 import { createTheme } from "@mui/material/styles";
 import { tokens } from "./tokens";
 
-const mode = "dark"; // change to "dark" to test
-
-const themeTokens = tokens(mode);
-
-export const theme = createTheme({
+export const buildTheme = (mode = "dark") => {
+  const themeTokens = tokens(mode);
+  return createTheme({
   spacing: themeTokens.spacing,
 
   palette: {
@@ -72,3 +70,4 @@ export const theme = createTheme({
     },
   },
 });
+};

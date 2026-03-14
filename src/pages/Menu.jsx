@@ -32,7 +32,7 @@ const Menu = () => {
   return (
     <div className="container-content">
       {/* Menu Buttons Sticky under Navbar */}
-      <div className="menu-btns sticky top-[90px] z-40 bg-black flex gap-2 justify-center overflow-x-auto py-4">
+      <div className="menu-btns sticky top-[90px] z-40 bg-background flex gap-2 justify-center overflow-x-auto py-4">
         {menu_ctgs.map((ctg) => (
           <div key={ctg.id}>
             <ButtonUI
@@ -78,9 +78,9 @@ const Menu = () => {
         </div>
 
         {/* Right Sidebar Sticky relative to buttons */}
-        <div className="right hidden lg:block sticky top-[170px] self-start w-[33%] h-[500px] bg-[#1C1816] rounded-md">
+        <div className="right hidden lg:block sticky top-[170px] self-start w-[33%] h-[500px] bg-background rounded-md">
           <div className="cart-header flex justify-between mx-[5%]">
-            <h5 className="text-white font-semibold text-lg my-1">
+            <h5 className="text-foreground font-semibold text-lg my-1">
               Order Details
             </h5>
             <div className="card-badge flex justify-end ">
@@ -96,7 +96,7 @@ const Menu = () => {
                   alt="empty cart"
                   className="w-[225px]"
                 />
-                <h5 className="text-white font-bold text-lg mt-4">
+                <h5 className="text-foreground font-bold text-lg mt-4">
                   You haven’t added any items in bucket yet
                 </h5>
               </div>
@@ -114,7 +114,7 @@ const Menu = () => {
           </div>
           <div className="cart-footer">
             <div
-              className="absolute bottom-6 left-1 text-white cursor-pointer z-50 rounded-t-xl px-4 py-4 w-[105%]"
+              className="absolute bottom-6 left-1 text-foreground cursor-pointer z-50 rounded-t-xl px-4 py-4 w-[105%]"
               style={{
                 background:
                   "linear-gradient(257deg, #e4002b 42%, #ff4065 52%, #e4002b 64%)",
@@ -140,7 +140,7 @@ const Menu = () => {
       {/* Mobile Bottom Bar — hidden on desktop */}
       {cartItems.length > 0 && (
         <div
-          className="block lg:hidden fixed bottom-0 left-0 right-0 text-white cursor-pointer z-50 px-6 py-4"
+          className="block lg:hidden fixed bottom-0 left-0 right-0 text-foreground cursor-pointer z-50 px-6 py-4"
           style={{
             background:
               "linear-gradient(257deg, #e4002b 42%, #ff4065 52%, #e4002b 64%)",

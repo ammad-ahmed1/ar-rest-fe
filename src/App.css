@@ -3,24 +3,17 @@ body {
 }
 
 .hero-slider .slick-list {
-  margin: 0; /* no extra negative margin */
+  margin: 0;
 }
-
-/* arrows ko image ke upar lao */
 
 .slick-prev:before,
 .slick-next:before {
   font-size: 20px;
-  color: red !important;
+  color: #E4002B !important;
 }
 
 .slick-prev {
   z-index: 10;
-  color: red !important;
-}
-
-/* vertically center */
-.slick-prev {
   left: 20px;
 }
 
@@ -28,9 +21,8 @@ body {
   right: 20px;
 }
 
-/* arrow circle style */
-.slick-prev:before,
-.slick-next:before {
-  font-size: 20px;
-  color: white;
+/* Explore menu slider arrows */
+.explore-menu-slider .slick-prev:before,
+.explore-menu-slider .slick-next:before {
+  color: var(--color-text-primary) !important;
 }

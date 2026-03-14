@@ -1,18 +1,12 @@
-import React from "react";
 import Drawer from "@mui/material/Drawer";
 import logo from "../../assets/images/logo.png";
 import { useNavigate } from "react-router-dom";
-import { RiCloseLine, RiHomeLine, RiMenuLine, RiShoppingBagLine, RiInformationLine, RiPhoneLine } from "react-icons/ri";
-
-const navLinks = [
-  { label: "Home", icon: <RiHomeLine size={20} />, path: "/" },
-  { label: "Menu", icon: <RiMenuLine size={20} />, path: "/menu" },
-  { label: "Deals", icon: <RiShoppingBagLine size={20} />, path: "/" },
-  { label: "About", icon: <RiInformationLine size={20} />, path: "/" },
-  { label: "Contact", icon: <RiPhoneLine size={20} />, path: "/" },
-];
+import ButtonUI from "../shared/Button";
+import { useThemeMode } from "../../context/ThemeContext";
+import { primaryNavLinks, secondaryNavLinks } from "../../data/nav-links";
 
 const Sidebar = ({ open, onClose }) => {
+  const { mode, setThemeMode } = useThemeMode();
   const navigate = useNavigate();
 
   const handleNav = (path) => {
@@ -28,45 +22,74 @@ const Sidebar = ({ open, onClose }) => {
       PaperProps={{
         sx: {
           width: 270,
-          bgcolor: "#111",
-          color: "white",
+          bgcolor: "background.paper",
+          backgroundImage: "none",
+          color: "text.primary",
           display: "flex",
           flexDirection: "column",
+          boxShadow: "none",
+        },
+      }}
+      BackdropProps={{
+        sx: {
+          backgroundColor: "transparent", // removes overlay effect
         },
       }}
     >
       {/* Header */}
-      <div className="flex items-center justify-between px-4 py-4 border-b border-gray-800">
-        <img
-          src={logo}
-          alt="Logo"
-          style={{ height: "36px", cursor: "pointer" }}
-          onClick={() => handleNav("/")}
-        />
-        <button
-          onClick={onClose}
-          className="text-white hover:text-red-500 transition"
-        >
-          <RiCloseLine size={24} />
-        </button>
+      <div className="flex flex-col p-4">
+        <div className="left w-[20%]">
+          <ButtonUI variant="primary" onClick={console.log("Login")}>
+            LOGIN
+          </ButtonUI>
+        </div>
+        <div className="right flex justify-end">
+          <div className="radio-btn flex rounded-lg cursor-pointer bg-background">
+            <div
+              className={`off py-2 px-3 ${mode === "light" ? "bg-red-500 rounded-lg" : ""}`}
+              onClick={() => setThemeMode("light")}
+            >
+             <span className="text-sm font-semibold">Day</span> 
+            </div>
+            <div
+              className={`on py-2 px-3 ${mode === "dark" ? "bg-red-500 rounded-lg" : ""}`}
+              onClick={() => setThemeMode("dark")}
+            >
+              <span className="text-sm font-semibold">Night</span> 
+            </div>
+          </div>
+        </div>
       </div>
 
       {/* Nav Links */}
       <nav className="flex flex-col mt-4 flex-1">
-        {navLinks.map((link) => (
+        {primaryNavLinks.map(({ name, url, icon: Icon }) => (
           <button
-            key={link.label}
-            onClick={() => handleNav(link.path)}
-            className="flex items-center gap-4 px-6 py-4 text-sm font-bold uppercase tracking-wide hover:bg-[#1C1816] hover:text-red-500 transition text-left border-b border-gray-800"
+            key={name}
+            onClick={() => handleNav(url)}
+            className="flex items-center gap-4 px-6 py-4 text-sm font-bold uppercase tracking-wide hover:bg-surface hover:text-red-500 transition text-left"
           >
-            <span className="text-red-500">{link.icon}</span>
-            {link.label}
+            <span className="text-red-500"><Icon size={20} /></span>
+            {name}
+          </button>
+        ))}
+
+        <div className="border-t border-border-color my-2" />
+
+        {secondaryNavLinks.map(({ name, url, icon: Icon }) => (
+          <button
+            key={name}
+            onClick={() => handleNav(url)}
+            className="flex items-center gap-4 px-6 py-4 text-sm font-bold uppercase tracking-wide hover:bg-surface hover:text-red-500 transition text-left"
+          >
+            <span className="text-red-500"><Icon size={20} /></span>
+            {name}
           </button>
         ))}
       </nav>
 
       {/* Footer branding */}
-      <div className="px-6 py-4 text-xs text-gray-500 border-t border-gray-800">
+      <div className="px-6 py-4 text-xs text-muted border-t border-border-color">
         © {new Date().getFullYear()} AR Restaurant Menu
       </div>
     </Drawer>

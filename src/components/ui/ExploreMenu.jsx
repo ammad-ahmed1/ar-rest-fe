@@ -32,7 +32,7 @@ const ExploreMenu = () => {
           <SectionHeader title="EXPLORE MENU" />
         </div>
         <div className="flex flex-col items-end">
-          <h4 className="font-white md:font-semibold leading-none text-white tracking-widest">
+          <h4 className="font-white md:font-semibold leading-none text-foreground tracking-widest">
             VIEW ALL
           </h4>
           <div className="w-[60px] h-[2px] bg-red-500 mt-1"></div>
@@ -49,7 +49,7 @@ const ExploreMenu = () => {
                   className="
                     relative
                     w-full h-[180px]
-                    bg-[#1c1816]
+                    bg-surface
                     rounded-[50%_50%_3%_50%]
                     flex flex-col items-center justify-center
                     transition-transform duration-300 ease-in-out
@@ -74,7 +74,7 @@ const ExploreMenu = () => {
       {/* Mobile View */}
       <div className="grid grid-cols-3 gap-1 h-[250px] lg:hidden">
         {/* Column 1 */}
-        <div className="relative border border-dashed border-white rounded-sm overflow-hidden">
+        <div className="relative border border-dashed border-border-color rounded-sm overflow-hidden">
           <img
             src={explore_menu_mobile[0].image}
             alt={explore_menu_mobile[0].name}
@@ -82,7 +82,7 @@ const ExploreMenu = () => {
           />
 
           {/* Name Top Overlay */}
-          <div className="absolute top-0 left-0 w-full  text-white text-xs font-bold p-1 text-left">
+          <div className="absolute top-0 left-0 w-full  text-foreground text-xs font-bold p-1 text-left">
             {explore_menu_mobile[0].name}
           </div>
         </div>
@@ -92,7 +92,7 @@ const ExploreMenu = () => {
           {explore_menu_mobile.slice(1, 3).map((item) => (
             <div
               key={item.id}
-              className="relative border border-dashed border-white rounded-sm overflow-hidden"
+              className="relative border border-dashed border-border-color rounded-sm overflow-hidden"
             >
               <img
                 src={item.image}
@@ -100,7 +100,7 @@ const ExploreMenu = () => {
                 className="w-[100px] h-[81px] mt-[20px] object-contain"
               />
 
-              <div className="absolute top-0 left-0 w-full  text-white text-xs font-bold p-1 text-left">
+              <div className="absolute top-0 left-0 w-full  text-foreground text-xs font-bold p-1 text-left">
                 {item.name}
               </div>
             </div>
@@ -112,7 +112,7 @@ const ExploreMenu = () => {
           {explore_menu_mobile.slice(3, 5).map((item) => (
             <div
               key={item.id}
-              className="relative border border-dashed border-white rounded-sm overflow-hidden"
+              className="relative border border-dashed border-border-color rounded-sm overflow-hidden"
             >
               <img
                 src={item.image}
@@ -120,7 +120,7 @@ const ExploreMenu = () => {
                 className="w-[100px] h-[81px] mt-[20px] object-contain"
               />
 
-              <div className="absolute top-0 left-0 w-full  text-white text-xs font-bold p-1 text-left">
+              <div className="absolute top-0 left-0 w-full  text-foreground text-xs font-bold p-1 text-left">
                 {item.name}
               </div>
             </div>

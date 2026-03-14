@@ -15,7 +15,7 @@ const MenuItemCard = ({
   return (
     // <div className="w-full relative">
     <div
-      className={`relative bg-[#1C1816] rounded-md flex-shrink-0 w-[45%] md:w-[33%] max-w-[325px] lg:w-auto flex flex-col ${className}`}
+      className={`relative bg-surface rounded-md flex-shrink-0 w-[45%] md:w-[33%] max-w-[325px] lg:w-auto flex flex-col ${className}`}
       onClick={onClick}
     >
       {showBadge && <KfcCardBadge />}
@@ -27,9 +27,9 @@ const MenuItemCard = ({
       </div>
 
       <div className="card-body flex flex-col items-start justify-end px-2 mb-3 flex-grow">
-        <h5 className="text-white font-bold text-md my-1">{name}</h5>
+        <h5 className="text-foreground font-bold text-md my-1">{name}</h5>
         <p className="text-sm line-clamp-2 w-full my-1">{description}</p>
-        <span className="text-sm font-extrabold text-white my-1">
+        <span className="text-sm font-extrabold text-foreground my-1">
           Rs&nbsp;{price}
         </span>
       </div>

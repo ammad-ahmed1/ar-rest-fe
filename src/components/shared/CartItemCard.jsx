@@ -7,7 +7,7 @@ const CartItemCard = ({ item, onIncrement, onDecrement, onRemove }) => {
   const { name, image, price, quantity, addons = [] } = item;
 
   return (
-    <div className="bg-black rounded-sm py-1">
+    <div className="bg-surface rounded-sm py-1">
       {/* Main Row */}
       <div className="flex items-center gap-2 px-2 py-2">
         {/* Image */}
@@ -19,31 +19,31 @@ const CartItemCard = ({ item, onIncrement, onDecrement, onRemove }) => {
 
         {/* Name + Qty Controls */}
         <div className="flex flex-col flex-grow min-w-0">
-          <span className="text-white font-bold text-sm leading-tight truncate">
+          <span className="text-foreground font-bold text-sm leading-tight truncate">
             {name}
           </span>
           <div className="flex items-center gap-2 mt-1">
             {quantity === 1 ? (
               <button
                 onClick={onRemove}
-                className="text-white bg-[#2a2522] rounded px-1.5 py-0.5 hover:bg-red-700 transition-colors"
+                className="text-foreground bg-surface rounded px-1.5 py-0.5 hover:bg-red-700 hover:text-white transition-colors"
               >
                 <RiDeleteBin6Line size={14} />
               </button>
             ) : (
               <button
                 onClick={onDecrement}
-                className="text-white font-bold bg-[#2a2522] rounded px-2 py-0.5 hover:bg-[#3a3532] transition-colors leading-none"
+                className="text-foreground font-bold bg-surface rounded px-2 py-0.5 hover:bg-border-color transition-colors leading-none"
               >
                 −
               </button>
             )}
-            <span className="text-white font-semibold text-sm w-4 text-center">
+            <span className="text-foreground font-semibold text-sm w-4 text-center">
               {quantity}
             </span>
             <button
               onClick={onIncrement}
-              className="text-white font-bold bg-[#2a2522] rounded px-2 py-0.5 hover:bg-[#3a3532] transition-colors leading-none"
+              className="text-foreground font-bold bg-surface rounded px-2 py-0.5 hover:bg-border-color transition-colors leading-none"
             >
               +
             </button>
@@ -52,7 +52,7 @@ const CartItemCard = ({ item, onIncrement, onDecrement, onRemove }) => {
 
         {/* Price + Details Button */}
         <div className="flex flex-col items-end gap-1 flex-shrink-0">
-          <span className="text-white font-bold text-sm whitespace-nowrap">
+          <span className="text-foreground font-bold text-sm whitespace-nowrap">
             Rs {price.toLocaleString()}
           </span>
           {addons.length > 0 && (
@@ -73,7 +73,7 @@ const CartItemCard = ({ item, onIncrement, onDecrement, onRemove }) => {
 
       {/* Addons List */}
       {detailsOpen && addons.length > 0 && (
-        <ul className="px-4 pb-2 text-white text-sm list-disc list-inside">
+        <ul className="px-4 pb-2 text-foreground text-sm list-disc list-inside">
           {addons.map((addon, idx) => (
             <li key={idx} className="leading-6">
               {addon}

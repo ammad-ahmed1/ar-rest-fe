@@ -1,66 +1,78 @@
 import TextField from "@mui/material/TextField";
 import React, { useState } from "react";
 import { FcGoogle } from "react-icons/fc";
+import { RiArrowLeftLine } from "react-icons/ri";
+import { useNavigate } from "react-router-dom";
 import ButtonUI from "../components/shared/Button";
 
 const Login = () => {
   const [phone, setPhone] = useState(null);
+  const navigate = useNavigate();
   return (
-    <div className="h-[75vh] flex items-center justify-center px-4">
-      <div className="bg-red-500 flex flex-col md:flex-row items-center md:items-start justify-center gap-8 md:gap-16 w-full max-w-5xl p-4 rounded-lg">
-        {/* Left: Animation */}
-        <div className="left md:w-1/2 flex justify-center">
-          <img
-            className="login-animation w-64 md:w-full object-contain"
-            src="https://www.kfcpakistan.com/static/media/login-animation.857cb4f842a7a27eed63.gif"
-            alt="login animation"
-          />
-        </div>
+    <div className="h-screen relative">
+      <div className="absolute w-[90%] md:w-[75%] lg:w-[75%] xl:w-[72%] top-[50%] md:top-[45%] lg:top-[40%] left-1/2 -translate-x-1/2 -translate-y-1/2 bg-surface relative">
+        {/* Back Button */}
+        <button
+          onClick={() => navigate(-1)}
+          className="absolute top-3 left-3 flex items-center gap-1 text-foreground hover:text-red-500 transition z-10"
+        >
+          <RiArrowLeftLine size={20} />
+        </button>
 
-        {/* Right: Login Form */}
-        <div className="right md:w-1/2 flex justify-center">
-          <div className="flex flex-col items-center justify-center bg-black p-6 rounded-lg w-full max-w-sm">
-            <h1 className="text-white text-3xl font-bold mb-6">Welcome!</h1>
-
-            {/* Phone Input */}
-            <TextField
-              variant="outlined"
-              type="tel"
-              placeholder="Phone Number (3XXXXXXXXX)"
-              value={phone}
-              onChange={(e) => setPhone(e.target.value)}
-              InputProps={{
-                startAdornment: <span className="text-white ml-2">+92</span>,
-                style: { color: "white" },
-              }}
-              sx={{
-                input: { color: "white" },
-                "& .MuiOutlinedInput-root": {
-                  backgroundColor: "#1e1e1e",
-                  borderRadius: "4px",
-                },
-                width: "100%",
-                mb: 4,
-              }}
+        {/* Left */}
+        <div className="parent-wrapper flex flex-col lg:flex-row w-full">
+          <div className="w-full lg:w-1/2 flex justify-center">
+            <img
+              className="h-[200px] md:h-[375px] lg:h-[325px] max-h-[375px]"
+              src="https://www.kfcpakistan.com/static/media/login-animation.857cb4f842a7a27eed63.gif"
+              alt="login animation"
             />
+          </div>
 
-            {/* Login Buttons */}
-            <ButtonUI
-              variant="primary"
-              onClick={() => console.log("Phone login:", phone)}
-              sx={{ width: "100%", mb: 2 }}
-            >
-              LOGIN
-            </ButtonUI>
+          {/* Right */}
+          <div className="w-full lg:w-1/2 flex justify-center p-2">
+            <div className="flex flex-col justify-center bg-surface rounded-lg w-full max-w-sm">
+              <h1 className="text-foreground text-3xl font-bold ">Welcome!</h1>
+              <div className="text-field-wrapper bg-border-color border-b flex flex-col gap-1 w-full px-2 pt-1 my-4 rounded-tl-md rounded-tr-md">
+                <span className="text-xs">Phone Number (3XXXXXXXXX)</span>
+                <TextField
+                  variant="standard"
+                  type="tel"
+                //   placeholder="Phone Number (3XXXXXXXXX)"
+                  value={phone}
+                  onChange={(e) => setPhone(e.target.value)}
+                  InputProps={{
+                    disableUnderline: true, // remove MUI underline completely
+                    startAdornment: (
+                      <span className="text-foreground mr-2">+92</span>
+                    ),
+                  }}
+                  sx={{
+                    width: "100%",
+                    height: "100%", // fill the wrapper height
+                    input: {
+                      color: "text.primary",
+                      padding: 0, // remove extra vertical padding
+                      height: "100%",
+                      display: "flex",
+                      alignItems: "center", // vertically center text
+                    },
+                  }}
+                />
+              </div>
 
-            <ButtonUI
-              variant="primary"
-              startIcon={<FcGoogle />}
-              onClick={() => console.log("Google login")}
-              sx={{ width: "100%" }}
-            >
-              LOGIN WITH GOOGLE
-            </ButtonUI>
+              <ButtonUI variant="primary" sx={{ width: "100%", mb: 1 }}>
+                LOGIN
+              </ButtonUI>
+
+              <ButtonUI
+                variant="primary"
+                startIcon={<FcGoogle />}
+                sx={{ width: "100%" }}
+              >
+                LOGIN WITH GOOGLE
+              </ButtonUI>
+            </div>
           </div>
         </div>
       </div>
