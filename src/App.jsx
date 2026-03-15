@@ -5,6 +5,7 @@ import Homepage from "./pages/Homepage";
 import Menu from "./pages/Menu";
 import Cart from "./pages/Cart";
 import Login from "./pages/Login";
+import Bucket from "./pages/Bucket";
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -22,6 +23,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/menu" element={<Menu />} />
+          <Route path="/bucket" element={<Bucket />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/login" element={<Login />} />
         </Routes>

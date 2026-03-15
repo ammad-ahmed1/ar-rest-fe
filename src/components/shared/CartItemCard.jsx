@@ -7,14 +7,14 @@ const CartItemCard = ({ item, onIncrement, onDecrement, onRemove }) => {
   const { name, image, price, quantity, addons = [] } = item;
 
   return (
-    <div className="bg-surface rounded-sm py-1">
+    <div className="bg-background rounded-sm py-1">
       {/* Main Row */}
       <div className="flex items-center gap-2 px-2 py-2">
         {/* Image */}
         <img
           src={image}
           alt={name}
-          className="w-12 h-12 object-contain flex-shrink-0"
+          className="w-[70px] object-contain flex-shrink-0"
         />
 
         {/* Name + Qty Controls */}

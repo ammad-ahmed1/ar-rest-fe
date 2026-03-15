@@ -89,7 +89,8 @@ const Navbar = () => {
               </ButtonUI>
             </div>
             <div className="right flex flex items-center">
-              <ButtonUI variant="transparent" sx={{ p: 0 }}>
+              <ButtonUI variant="transparent" sx={{ p: 0 }}
+              onClick={() => navigate("/bucket")}>
                 <img
                   src="https://www.kfcpakistan.com/static/media/bucket-filled.5ed4fd2893f4b6af2b06.svg"
                   alt="Bucket"
