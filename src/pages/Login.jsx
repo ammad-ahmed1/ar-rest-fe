@@ -4,6 +4,7 @@ import { FcGoogle } from "react-icons/fc";
 import { RiArrowLeftLine } from "react-icons/ri";
 import { useNavigate } from "react-router-dom";
 import ButtonUI from "../components/shared/Button";
+import InputField from "../components/shared/InputField";
 
 const Login = () => {
   const [phone, setPhone] = useState(null);
@@ -33,29 +34,31 @@ const Login = () => {
           <div className="w-full lg:w-1/2 flex justify-center p-2">
             <div className="flex flex-col justify-center bg-surface rounded-lg w-full max-w-sm">
               <h1 className="text-foreground text-3xl font-bold ">Welcome!</h1>
-              <div className="text-field-wrapper bg-border-color border-b flex flex-col gap-1 w-full px-2 pt-1 my-4 rounded-tl-md rounded-tr-md">
+              <div className="text-field-wrapper bg-[#5a595930] border-b  flex flex-col gap-1 w-full px-2 pt-1 my-4 rounded-tl-md rounded-tr-md">
                 <span className="text-xs">Phone Number (3XXXXXXXXX)</span>
-                <TextField
+                <InputField
                   variant="standard"
                   type="tel"
-                //   placeholder="Phone Number (3XXXXXXXXX)"
                   value={phone}
                   onChange={(e) => setPhone(e.target.value)}
                   InputProps={{
-                    disableUnderline: true, // remove MUI underline completely
+                    disableUnderline: true,
                     startAdornment: (
-                      <span className="text-foreground mr-2">+92</span>
+                      <span className="text-foreground pr-2 bg-[#5a595930]">
+                        +92
+                      </span>
                     ),
                   }}
                   sx={{
                     width: "100%",
-                    height: "100%", // fill the wrapper height
+                    height: "100%",
                     input: {
-                      color: "text.primary",
-                      padding: 0, // remove extra vertical padding
+                      color: "black",
+                      padding: 0,
                       height: "100%",
                       display: "flex",
-                      alignItems: "center", // vertically center text
+                      alignItems: "center",
+                      background: "#5a595930",
                     },
                   }}
                 />
