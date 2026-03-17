@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { best_sellers, deal_details } from "../../data/homepage-data";
 import SectionHeader from "./SectionHeader";
 import KfcCardBadge from "./KfcCardBadge";
-import MenuItemCard from "../shared/MenuItemCard";
 import ModalUI from "../shared/Modal";
 import Accordion from "@mui/material/Accordion";
 import AccordionActions from "@mui/material/AccordionActions";
@@ -21,18 +20,45 @@ const BestSellers = () => {
       {/* Header */}
       <SectionHeader title="BEST SELLERS" />
 
-      <div className="flex gap-6 overflow-x-auto best-sellers-scroll pb-6">
+      <div className="flex gap-4 overflow-x-auto best-sellers-scroll">
         {best_sellers?.map((item) => (
-          <MenuItemCard
+          <div
             key={item.id}
-            name={item.title}
-            image={item.image}
-            description={item.description}
-            price={item.price}
-            className="w-[160px] md:w-[190px] lg:w-[210px]"
+            className="w-[190px] md:w-[205px] lg:w-[265px] 2xl:w-[300px] relative flex-shrink-0 bg-surface overflow-hidden rounded-sm shadow-lg pointer"
             onClick={handleOpenModal}
-            onAdd={(e) => { e.stopPropagation(); handleOpenModal(); }}
-          />
+          >
+            <KfcCardBadge />
+            <div className="product-name absolute top-[12%] left-[4%]">
+              <h3 className="text-lg font-bold text-foreground">{item.title}</h3>
+            </div>
+
+            <span
+              className="absolute right-0 top-[80px]
+                 w-[80px] h-[28px]
+                 px-[15px] py-[2px]
+                 text-white font-extrabold
+                 leading-[24px] whitespace-nowrap bg-[#ea002a]
+                 text-center"
+            >
+              <span className="flex items-end justify-center h-full">
+                Rs&nbsp;{item?.price}
+              </span>
+              <span
+                className="absolute top-0 left-[-8px]
+             w-0 h-0
+             border-t-[14px] border-b-[14px]
+             border-r-[8px]
+             border-t-transparent
+             border-b-transparent
+             border-r-[#ea002a]"
+              ></span>
+            </span>
+            <img
+              src={item.image}
+              alt={item.title}
+              className="w-full h-[290px] object-contain mt-[50px]"
+            />
+          </div>
         ))}
       </div>
       <ModalUI open={openModal} handleClose={handleCloseModal} width={760}>
